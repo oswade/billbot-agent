@@ -1,0 +1,35 @@
+{
+  "fuel_type": "ELECTRICITY",
+  "customer_type": "RESIDENTIAL",
+  "customer_name": "Example Customer",
+  "retailer_name": "Current Energy",
+  "current_plan_name": "Home Saver",
+  "current_plan_id": null,
+  "distributor_name": "United Energy",
+  "service_postcode": "3168",
+  "service_state": "VIC",
+  "billing_period_start": "2026-06-09",
+  "billing_period_end": "2026-07-08",
+  "bill_days": 30,
+  "bill_total_dollars": 279.96,
+  "usage_lines": [
+    {
+      "description": "Anytime usage",
+      "kwh": 823.215,
+      "unit_rate_cents": 30.0,
+      "line_total_dollars": 246.9645
+    }
+  ],
+  "supply_charge_lines": [
+    {
+      "description": "Daily supply",
+      "days": 30,
+      "unit_rate_cents_per_day": 110.0,
+      "line_total_dollars": 33.0
+    }
+  ],
+  "controlled_load_lines": [],
+  "solar_export_lines": [],
+  "demand_lines": [],
+  "historical_usage_observations": []
+}

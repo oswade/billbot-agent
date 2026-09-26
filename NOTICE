@@ -1,0 +1,10 @@
+BillBot
+Copyright 2026 BillBot contributors
+
+The Apache-2.0 LICENSE applies to BillBot-authored source code in this repository.
+
+The file aer_seasonality_2021.json is derived from Australian Energy Regulator / Frontier Economics benchmark material:
+"Simple electricity and gas benchmarks", December 2020, with postcode mapping updated June 2021.
+Source: https://www.aer.gov.au/documents/frontier-economics-simple-electricity-and-gas-benchmarks-june-2021
+
+That upstream material remains subject to its own applicable rights and attribution requirements and is not relicensed by BillBot merely by inclusion in this repository.

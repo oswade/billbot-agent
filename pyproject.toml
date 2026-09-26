@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "billbot-grok-flat"
+version = "1.4.0"
+description = "Flat no-MCP BillBot electricity comparison package for Grok"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+billbot-agent = "cli:main"
+
+[tool.setuptools]
+py-modules = [
+  "bill", "billbot_core", "billbot_engine_core", "cli", "compare",
+  "diagnostics", "market", "render", "seasonality", "run_billbot", "show_log"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+python_files = ["test_billbot_flat.py"]

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+billbot-logs/
+billbot-result.json
+billbot-result.html
+*.db
+*.db.gz
+.DS_Store
